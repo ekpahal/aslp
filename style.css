@@ -11,7 +11,14 @@
    
     color:#ffffff;*/
 }
-
+#block_container
+{
+    text-align:center;
+}
+#bloc1, #bloc2
+{
+    display:inline;
+}
 ul {
     list-style-image: url('tick.png');
 }
@@ -19,6 +26,17 @@ ul {
   background:url("Images/lu.jpg") 0 0 repeat #005073;
     background:url("Images/lu.jpg") 0 0 repeat #005073;
     color:#ffffff;
+}
+.col4{
+    width: 33%;
+    position: relative;
+  min-height: 1px;
+  float: left;
+}
+.col8{
+    width: 67%;
+    position: relative;
+  min-height: 1px;float: left;
 }
 .contain {
   position: relative;
