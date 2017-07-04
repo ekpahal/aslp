@@ -8,24 +8,17 @@
     height: 10em;
     /*background:url("Images/blur.jpg") 0 0 repeat #005073;
     background:url("Images/blur.jpg") 0 0 repeat #005073;
-   
     color:#ffffff;*/
-}
-#block_container
-{
-    text-align:center;
-}
-#bloc1, #bloc2
-{
-    display:inline;
-}
-ul {
-    list-style-image: url('tick.png');
 }
 .bod{
   background:url("Images/lu.jpg") 0 0 repeat #005073;
     background:url("Images/lu.jpg") 0 0 repeat #005073;
     color:#ffffff;
+}
+.contain {
+  position: relative;
+  height: 100px;
+  text-align: center;
 }
 .col4{
     width: 33%;
@@ -38,11 +31,11 @@ ul {
     position: relative;
   min-height: 1px;float: left;
 }
-.contain {
-  position: relative;
-  height: 100px;
-  text-align: center;
+.end>.tex{
+    padding-left: 10%;
+    padding-right: 22%;
 }
+
 #block {
   background: #CCC;
   filter: alpha(opacity=60);
